@@ -1,8 +1,9 @@
 {
   "name": "realtime-code-collab-server",
   "version": "1.0.0",
-  "type": "commonjs",
+  "description": "Real-time code collaboration backend",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js",
