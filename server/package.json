@@ -2,11 +2,11 @@
   "name": "realtime-code-collab-server",
   "version": "1.0.0",
   "description": "Real-time code collaboration backend",
-  "main": "index.js",
+  "main": "index.cjs",
   
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js",
+    "dev": "nodemon index.cjs",
+    "start": "node index.cjs",
     "seed": "node seed.js"
   },
   "dependencies": {
