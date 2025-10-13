@@ -3,6 +3,7 @@ import { io } from "socket.io-client";
 
 const SERVER_URL = import.meta.env.VITE_SERVER_URL || "http://localhost:3001";
 
+
 console.log("🔧 Socket.js loading...");
 console.log("🌐 Server URL:", SERVER_URL);
 
