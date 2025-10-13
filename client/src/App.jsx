@@ -7,7 +7,8 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import { me } from "./api/auth";
 import Dashboard from "./pages/Dashboard";
-import Editor from "./editor";
+import Editor from "./Editor";
+
 import toast from 'react-hot-toast';
 
 // Email verification & password reset imports
