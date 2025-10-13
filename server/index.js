@@ -29,7 +29,7 @@ setupPassport();
 
 const PORT = process.env.PORT || 3001;
 const CLIENT_URL = process.env.CLIENT_URL || "http://localhost:5173";
-const MONGO_URI = process.env.MONGO_URI || "mongodb://localhost:27017/realtime-collab";
+const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://vishal:Vishal2004@cluster0.xrlwwdf.mongodb.net/realtime-collab?retryWrites=true&w=majority&appName=Cluster0";
 const JWT_SECRET = process.env.JWT_SECRET || "dev_secret";
 const SESSION_SECRET = process.env.SESSION_SECRET || "session_secret";
 
