@@ -7,5 +7,10 @@ export default defineConfig({
   base: './', 
   define: {
     'process.env': {}
+  },
+  // 🎯 FINAL FIX: PostCSS/Tailwind Build Error ko resolve karne ke liye
+  css: {
+    // Vite ko batao ki PostCSS config ab .cjs file mein hai
+    postcss: './postcss.config.cjs',
   }
 })
