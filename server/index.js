@@ -84,6 +84,12 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
+// 🔍 DEBUG: Log all incoming requests
+app.use((req, res, next) => {
+  console.log(`📥 ${req.method} ${req.path} - Origin: ${req.headers.origin || 'No origin'}`);
+  next();
+});
+
 app.use("/api/auth", authRoutes);
 app.use("/api/rooms", roomsRoutes);
 app.use("/api/messages", messagesRoutes);
